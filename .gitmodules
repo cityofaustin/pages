@@ -1,0 +1,3 @@
+[submodule "template/pages-template"]
+	path = templates/pages-template
+	url = https://github.com/cityofaustin/pages-template.git
