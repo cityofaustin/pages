@@ -1,14 +1,19 @@
+---
 title: City of Austin Pages
-url: "http://pages.austintexas.io" # the base hostname & protocol for your site
-
-# Build settings
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: http://pages.austintexas.io
 markdown: kramdown
-
 permalink: pretty
-
 exclude:
-  - api
-  - bin
-  - circle.yml
-  - Gemfile
-  - vendor
+- api
+- bin
+- circle.yml
+- Gemfile
+- vendor
